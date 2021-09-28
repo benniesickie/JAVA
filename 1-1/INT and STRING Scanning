@@ -2,17 +2,25 @@ import java.util.Scanner;
 
 public class Hello {
     public static void main(String[] args) {
-
-        Scanner scan = new Scanner(System.in);
-
-
-
-        System.out.println("Enter the code");
-        String code = scan.nextLine();
-        System.out.println("your code is " + code); 
-
- } }
-
+    
+        
+                Scanner scan = new Scanner (System.in);
+            
+                System.out.println("Enter the code");
+                String code = scan.nextLine();
+        
+                System.out.println("Enter your second code");
+                String secondcode = scan.nextLine();
+               
+                System.out.println("Enter your third code");
+                String thirdcode = scan.nextLine();
+        
+                System.out.println("Here are your codes");
+                System.out.println(code);
+                System.out.println(secondcode);
+                System.out.println(thirdcode);
+        
+} }
 
 
         import java.util.Scanner;
