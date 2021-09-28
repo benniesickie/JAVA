@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Hello {
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+
+
+        System.out.println("Enter the code");
+        String code = scan.nextLine();
+        System.out.println("your code is " + code); 
+
+ } }
+
+
+
+        import java.util.Scanner;
+
+public class Hello {
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter your age");
+
+        int n = scan.nextInt();
+        if (n >= 50 && n <= 100) {System.out.println("You are old AF");}
+        if (n == 69) {System.out.println("are you a pervert");}
+
+} }
